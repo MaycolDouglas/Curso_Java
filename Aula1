@@ -1,0 +1,111 @@
+// CTRL+A + CTRL+SHIFT+F = IDENTAR CORRETAMENTE
+
+package Principal;
+
+import java.util.ArrayList;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		int contador = 0;
+		boolean condicao = true;
+		while (condicao == true) {
+			contador = contador + 1;
+			System.out.println(contador);
+			if (contador >= 10) {
+				System.out.println("Limite");
+				break;
+			}
+		}
+		for (int numero = 0; numero < 10;) {
+			numero = numero + 1;
+			System.out.println(numero);
+		} // Outro metodo
+		for (int numero = 0; numero < 10; numero++) {
+			System.out.println(numero);
+		}
+		ArrayList<String> lista = new ArrayList<>();
+		lista.add("Elias");
+		lista.add("Gabriel");
+		lista.add("Ítalo");
+
+		for (String objeto : lista) {
+			System.out.println(objeto);
+			if (objeto == "Gabriel") {
+				System.out.println("O objeto é igual à Gabriel");
+				break;
+			}
+
+		}
+		somar();
+	}
+	
+	public static void somar() {
+		int numero = 1;
+		int numero2 = 4;
+		int soma = numero + numero2;
+		System.out.println("Resultado: " + soma);
+				
+	}
+	
+	
+	
+	
+}
+
+
+
+
+/*
+		String texto = "O número é:";
+		int numero_inteiro = 10 * 2;
+		double numeroDecimal = 10.5;
+		//Printando algo no console (com a variavel)
+		System.out.println(texto + numero_inteiro);
+		System.out.println("divido por 2 é:" + numero_inteiro / 2);
+		System.out.println(numeroDecimal);
+		boolean souAdulto = true;
+		System.out.println(souAdulto);
+		//Comparação de variaveis (Valores Booleanos)
+		//Nesta linha a seguir, o sinal "!" retorna o valor como False
+		if(!souAdulto) {
+			System.out.println("Não sou adulto");
+		}else {
+			System.out.println("Sou adulto.");
+		}
+		if(numero_inteiro == 10) {
+			System.out.println("O número é igual à 10.");
+		}else if(numero_inteiro == 11) {
+			System.out.println("O número igual à 11");
+		}else if(numero_inteiro == 12) {
+			System.out.println("O número é igual à 12");
+		}else {
+			System.out.println("O número não é igual a 10, nem 11 e nem 12");
+		}/*
+	}
+}
+
+package Atividade;
+
+public class Principal {
+	
+	public static void main(String[] args) {
+		//System.out.println("Olá mundo!");
+		somar();
+		multiplicacao();
+		
+	}
+	public static void somar() {
+		int numero = 10;
+		int numero2 = 20;
+		
+		int soma = numero + numero2;
+		System.out.println(soma);
+	}
+	public static void multiplicacao() {
+		int numero = 5;
+		int numero2 = 10;
+		int multiplicar = numero * numero2;
+		System.out.println(multiplicar);
+	}
+}
