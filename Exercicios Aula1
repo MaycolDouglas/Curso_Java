@@ -1,0 +1,26 @@
+package Aula;
+
+/*
+
+Exercicio 4
+
+  */
+
+public class Exercicio {
+    public static void main(String[] args){
+        System.out.println("Bem vindo ao IntelliJ");
+        testarIdade();
+
+    }
+    /*
+    Exercicio 5
+     */
+    public static void testarIdade() {
+        int idadePessoa = 15;
+        if(idadePessoa > 16) {
+            System.out.println("Maior de idade");
+        } else{
+            System.out.println("Menor de idade");
+        }
+    }
+}
