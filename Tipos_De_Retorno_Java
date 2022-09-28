@@ -1,0 +1,21 @@
+
+
+package Aula;
+
+public class TiposDeRetornos {
+    public void somarSemRetorno(){
+        int num1 = 20;
+        int num2 = 5;
+
+        int soma = num1 + num2;
+        System.out.println("Somar Void: " + soma);
+    }
+    public int somarComRetorno(){
+        int num1 = 40;
+        int num2 = 10;
+
+        int soma = num1 + num2;
+
+        return soma;
+    }
+}
