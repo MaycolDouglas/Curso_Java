@@ -1,0 +1,17 @@
+#Nesse exercício foi criado uma outra classe chamada Lista para ser chamada no exercicio 1
+
+package Aula;
+
+import java.util.ArrayList;
+
+public class Lista {
+    public static void mostrarLista(){
+        ArrayList<String> lista = new ArrayList<>();
+        lista.add("Pera");
+        lista.add("Uva");
+        lista.add("Maça");
+        for(String fruta : lista){
+            System.out.println(fruta);
+        }
+    }
+}
