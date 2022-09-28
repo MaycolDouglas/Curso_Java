@@ -1,0 +1,13 @@
+package Aula2;
+
+public class Exercicio3 {
+    public static boolean calcularMedia(double notaSemestral1, double notaSemestral2){
+        double media = (notaSemestral1 + notaSemestral2) / 2;
+        if(media >= 70) {
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+}
