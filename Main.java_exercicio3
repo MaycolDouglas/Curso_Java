@@ -1,0 +1,13 @@
+package Aula2;
+
+public class Main {
+    public static void main(String[] args) {
+        boolean resultado = Exercicio3.calcularMedia(70.0, 70.0);
+        if(resultado == true) {
+            System.out.println("Aprovado.");
+        }else {
+            System.out.println("Reprovado");
+        }
+
+    }
+}
