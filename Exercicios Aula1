@@ -14,6 +14,22 @@ public class Exercicio {
         ForContarAteDez();
         Lista.mostrarLista();
 
+        //Instanciando uma classe:
+        TiposDeMetodos tiposDeMetodos = new TiposDeMetodos();
+        tiposDeMetodos.somarPublico();
+
+        TiposDeRetornos tiposDeRetornos = new TiposDeRetornos();
+        tiposDeRetornos.somarSemRetorno();
+
+        int soma = tiposDeRetornos.somarComRetorno();
+        System.out.println("Soma Com Retorno:" + soma);
+
+        Calculadora calculadora = new Calculadora();
+        calculadora.somarSemRetorno(10,20);
+        int somaCalculadora = calculadora.somarComRetorno(10,20);
+        System.out.println(somaCalculadora);
+
+
     }
     /*
     Exercicio 5
